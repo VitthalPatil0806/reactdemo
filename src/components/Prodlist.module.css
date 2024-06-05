@@ -1,0 +1,28 @@
+.table_style{
+    color: blue;
+    background-color: antiquewhite;
+}
+/* styling in react -
+
+ inline style - 
+ var mystyl = {color:"blue"}
+ <div style={mystyl}></div>
+ 
+ .styles.css css file - 
+ .myContent{
+    color:"red";
+ }
+
+ import "./styles.css"
+
+
+ css modules or styled components -
+ styled component is a library for react component we can use it with normal css or sass
+ it avoids the problem of class conflict with normal css.it adds unique className thats why.
+
+ import styleCss from "./styles.module.css"
+ <div className={styleCss.className}></div>
+ */
+
+ /* conditional rendering of components
+ using if-else - */
